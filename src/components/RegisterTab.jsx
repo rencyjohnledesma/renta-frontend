@@ -51,7 +51,7 @@ const RegisterTab = () => {
     };
 
   return (
-    <div className='flex flex-col justify-self-center w-full max-w-[430px] gap-5 py-20 max-md:p-6'>
+    <div className='flex flex-col justify-self-center w-full max-w-[470px] gap-5 py-20 max-md:p-6'>
 
         <div className='flex justify-between items-center'>
             <h2 className='text-3xl font-semibold w-1/2'>Let's create an account</h2>
@@ -133,3 +133,4 @@ const RegisterTab = () => {
 }
 
 export default RegisterTab
+
