@@ -44,7 +44,7 @@ const LoginTab = () => {
   };
 
   return (
-    <div className='flex flex-col gap-4 justify-self-center w-full max-w-[430px] items-center py-20 relative max-md:p-6'>
+    <div className='flex flex-col gap-4 justify-self-center w-full max-w-[470px] items-center py-20 relative max-md:p-6'>
       {/* Logo */}
       <img src={Logo} alt="Renta Logo" height={100} width={100} className='animate-slideUp max-md:w-[80px] max-md:h-[80px]'/>
       <h2 className='text-3xl font-semibold'>Login to Renta</h2>
@@ -118,6 +118,7 @@ const LoginTab = () => {
 
 
 export default LoginTab;
+
 
 
 
