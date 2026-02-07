@@ -5,12 +5,15 @@ import RegisterTab from '../RegisterTab'
 
 const RegisterPage = () => {
   return (
-    <div>
+    <div className='flex flex-col justify-between h-screen'>
       <Header/>
-      <RegisterTab/>
+      <div className='flex justify-center'>
+        <RegisterTab/>
+      </div>
       <Footer/>
     </div>
   )
 }
 
 export default RegisterPage
+
