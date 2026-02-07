@@ -25,7 +25,6 @@ const LoginTab = () => {
 
       const text = await login.text(); // Get response as text first
       console.log("Raw Response:", text); 
-      const data = JSON.parse(text);
 
       const data = await login.json();
       setMessage(data.message);
@@ -119,5 +118,6 @@ const LoginTab = () => {
 
 
 export default LoginTab;
+
 
 
