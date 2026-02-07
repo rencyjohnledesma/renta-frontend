@@ -6,12 +6,15 @@ import Footer from '../Footer'
 
 const LoginPage = () => {
   return (
-    <div>
+    <div className='flex flex-col justify-between h-screen'>
       <Header/>
-      <LoginTab/>
+      <div className='flex justify-center'>
+        <LoginTab/>
+      </div>
       <Footer/>
     </div>
   )
 }
 
 export default LoginPage
+
