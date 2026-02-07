@@ -1,0 +1,10 @@
+*{
+    font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: calc(16px - 2px); /* = 13px */
+  }
+}
